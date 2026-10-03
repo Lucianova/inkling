@@ -1,0 +1,22 @@
+# PlatformIO
+.pio/
+.venv/
+
+# generated previews / scratch captures
+tools/sim*.png
+octocat.txt
+tools/png.py
+
+# no bitmap in this project is meant to be committed - photos of the rig,
+# traced sprites, simulator output. Fonts ship as .h, not images.
+*.png
+*.jpg
+*.jpeg
+*.heic
+*.gif
+
+# secrets - wifi credentials etc. live here, never committed
+src/config.h
+
+# macOS
+.DS_Store
